@@ -9,9 +9,8 @@ body {
 ul {
     list-style-type: none;
     float: right;
-    color: white;
     background-color: hotpink;
-    height: 2000px;
+    height: 500px;
     margin: 20px;
     padding-inline-start: 0px;
     padding: 10px;
@@ -24,12 +23,23 @@ h1 {
     font-family: 'Chonburi', serif;
 }
 
-.pic {
-    size: 50px;
+img {
+    height: 300px;
 }
 
-.logo {
-    width: 150px;
+a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: aliceblue;
+}
+
+.pic {
+    display: block;
+    margin: auto
 }
 
 .main-text {
